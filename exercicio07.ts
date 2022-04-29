@@ -1,9 +1,4 @@
-interface Pessoa {
-    nome: string;
-    idade: number;
-    rua: string;
-    cadastrar: () => void;
-}
+import Pessoa from './exercicio08'
 
 class Aluno implements Pessoa {
     nome: string;
